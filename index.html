@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Total Car Taller Mecánico - Servicio de mantenimiento y reparación de vehículos en Managua, Las Colinas. ⭐ 5.0 estrellas en Google Maps">
+    <meta name="keywords" content="taller mecánico, Managua, reparación de autos, mantenimiento, Las Colinas">
+    <title>Total Car | Taller Mecánico Profesional - Managua</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <h1>🚗 Total Car</h1>
+                <p>Taller Mecánico Profesional</p>
+            </div>
+            <div class="navbar-links">
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#ventajas" class="nav-link">¿Por qué nosotros?</a>
+                <a href="#contacto" class="nav-link btn-contact">Contactar</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Tu vehículo en manos profesionales</h2>
+                <p>Servicio de mantenimiento y reparación con <strong>5.0 estrellas ⭐</strong> en Google Maps</p>
+                <p class="hero-subtitle">Ubicado en Las Colinas, Managua • Atención especializada en todas las marcas</p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('modalCita').style.display='block'">
+                        📅 Agendar Cita
+                    </button>
+                    <button class="btn btn-secondary" onclick="document.getElementById('modalCotizacion').style.display='block'">
+                        💰 Solicitar Cotización
+                    </button>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>⭐ 5.0</h3>
+                        <p>Calificación Google</p>
+                    </div>
+                    <div class="stat">
+                        <h3>+1000</h3>
+                        <p>Clientes satisfechos</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Años de experiencia</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    🔧 Mecanica Profesional
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <p class="section-subtitle">Todo lo que tu vehículo necesita en un solo lugar</p>
+
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <div class="servicio-icon">🛢️</div>
+                    <h3>Cambio de Aceite</h3>
+                    <p>Mantenimiento preventivo con aceites de calidad premium para prolongar la vida útil de tu motor.</p>
+                    <a href="#contacto" class="servicio-link">Cotizar →</a>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon">🛞</div>
+                    <h3>Alineación y Balanceo</h3>
+                    <p>Servicio completo de alineación 3D y balanceo dinámico para un manejo seguro.</p>
+                    <a href="#contacto" class="servicio-link">Cotizar →</a>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon">🔌</div>
+                    <h3>Diagnóstico Electrónico</h3>
+                    <p>Escaneo de sistemas electrónicos con equipos de última generación para detectar fallas.</p>
+                    <a href="#contacto" class="servicio-link">Cotizar →</a>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon">🛠️</div>
+                    <h3>Reparación General</h3>
+                    <p>Reparación y mantenimiento de motor, transmisión, frenos, suspensión y más.</p>
+                    <a href="#contacto" class="servicio-link">Cotizar →</a>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon">🧼</div>
+                    <h3>Detallado Profesional</h3>
+                    <p>Limpieza y pulido exterior e interior para mantener tu vehículo como nuevo.</p>
+                    <a href="#contacto" class="servicio-link">Cotizar →</a>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon">🔋</div>
+                    <h3>Batería y Accesorios</h3>
+                    <p>Venta e instalación de baterías originales y accesorios automotrices de confianza.</p>
+                    <a href="#contacto" class="servicio-link">Cotizar →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VENTAJAS -->
+    <section id="ventajas" class="ventajas">
+        <div class="container">
+            <h2>¿Por qué elegir Total Car?</h2>
+            
+            <div class="ventajas-grid">
+                <div class="ventaja">
+                    <div class="ventaja-number">✓</div>
+                    <h3>Experiencia Garantizada</h3>
+                    <p>Más de 10 años trabajando con clientes satisfechos y vehículos de todas las marcas.</p>
+                </div>
+
+                <div class="ventaja">
+                    <div class="ventaja-number">✓</div>
+                    <h3>Equipos Modernos</h3>
+                    <p>Utilizamos tecnología de punta para diagnósticos precisos y reparaciones rápidas.</p>
+                </div>
+
+                <div class="ventaja">
+                    <div class="ventaja-number">✓</div>
+                    <h3>Precios Justos</h3>
+                    <p>Cotizaciones transparentes sin sorpresas. Presupuesto aprobado antes de iniciar.</p>
+                </div>
+
+                <div class="ventaja">
+                    <div class="ventaja-number">✓</div>
+                    <h3>Ubicación Privilegiada</h3>
+                    <p>Las Colinas, Managua. Fácil acceso y estacionamiento disponible para tus citas.</p>
+                </div>
+
+                <div class="ventaja">
+                    <div class="ventaja-number">✓</div>
+                    <h3>Atención Rápida</h3>
+                    <p>Sistema ágil de citas y cotizaciones. Respuesta en menos de 1 hora.</p>
+                </div>
+
+                <div class="ventaja">
+                    <div class="ventaja-number">✓</div>
+                    <h3>Garantía en Servicio</h3>
+                    <p>Todos nuestros trabajos incluyen garantía de satisfacción y repuestos de calidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="testimonios">
+        <div class="container">
+            <h2>Lo que dicen nuestros clientes</h2>
+            
+            <div class="testimonios-grid">
+                <div class="testimonio">
+                    <div class="estrellas">⭐⭐⭐⭐⭐</div>
+                    <p>"Excelente servicio, muy profesionales. Mi auto quedó impecable y en tiempo récord. Los recomiendo 100%"</p>
+                    <p class="testimonio-autor">- Carlos M.</p>
+                </div>
+
+                <div class="testimonio">
+                    <div class="estrellas">⭐⭐⭐⭐⭐</div>
+                    <p>"Atención amable, precios justos y trabajos de calidad. Es mi taller de confianza desde hace 5 años."</p>
+                    <p class="testimonio-autor">- María L.</p>
+                </div>
+
+                <div class="testimonio">
+                    <div class="estrellas">⭐⭐⭐⭐⭐</div>
+                    <p>"Resolvieron el problema de mi auto en una sola visita. Muy recomendado en Las Colinas."</p>
+                    <p class="testimonio-autor">- Roberto C.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta">
+        <div class="container">
+            <h2>¿Tu auto necesita atención?</h2>
+            <p>No esperes más. Contáctanos hoy y obtén tu cotización sin compromiso.</p>
+            
+            <div class="cta-buttons">
+                <button class="btn btn-primary btn-large" onclick="document.getElementById('modalCita').style.display='block'">
+                    Agendar Cita
+                </button>
+                <button class="btn btn-secondary btn-large" onclick="abrirWhatsApp()">
+                    💬 WhatsApp
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contacto y Ubicación</h2>
+            
+            <div class="contacto-grid">
+                <div class="contacto-info">
+                    <h3>📍 Ubicación</h3>
+                    <p>Las Colinas, Managua</p>
+                    <p class="text-small">Estacionamiento disponible</p>
+                </div>
+
+                <div class="contacto-info">
+                    <h3>📱 WhatsApp</h3>
+                    <p><a href="https://wa.me/50588888888" target="_blank" class="link">+505 8888-8888</a></p>
+                    <p class="text-small">Respuesta inmediata</p>
+                </div>
+
+                <div class="contacto-info">
+                    <h3>📞 Teléfono</h3>
+                    <p><a href="tel:+50588888888" class="link">+505 8888-8888</a></p>
+                    <p class="text-small">Lunes a Sábado 7am-6pm</p>
+                </div>
+
+                <div class="contacto-info">
+                    <h3>🕐 Horario</h3>
+                    <p>Lunes a Sábado: 7:00 am - 6:00 pm</p>
+                    <p class="text-small">Domingo: Cerrado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Total Car Taller Mecánico. Todos los derechos reservados.</p>
+            <p>Las Colinas, Managua • ⭐ 5.0 estrellas en Google Maps</p>
+        </div>
+    </footer>
+
+    <!-- MODAL: AGENDAR CITA -->
+    <div id="modalCita" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('modalCita').style.display='none'">&times;</span>
+            <h2>📅 Agendar Cita</h2>
+            <form class="formulario">
+                <input type="text" placeholder="Tu nombre *" required>
+                <input type="email" placeholder="Tu email *" required>
+                <input type="tel" placeholder="Tu teléfono/WhatsApp *" required>
+                <input type="date" required>
+                <select required>
+                    <option value="">Selecciona un servicio *</option>
+                    <option value="cambio-aceite">Cambio de Aceite</option>
+                    <option value="alineacion">Alineación y Balanceo</option>
+                    <option value="diagnostico">Diagnóstico Electrónico</option>
+                    <option value="reparacion">Reparación General</option>
+                    <option value="detallado">Detallado Profesional</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <textarea placeholder="Describe el problema o servicio que necesitas..."></textarea>
+                <button type="submit" class="btn btn-primary" onclick="enviarFormulario(event, 'cita')">
+                    Confirmar Cita
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- MODAL: SOLICITAR COTIZACION -->
+    <div id="modalCotizacion" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('modalCotizacion').style.display='none'">&times;</span>
+            <h2>💰 Solicitar Cotización</h2>
+            <form class="formulario">
+                <input type="text" placeholder="Tu nombre *" required>
+                <input type="email" placeholder="Tu email *" required>
+                <input type="tel" placeholder="Tu teléfono/WhatsApp *" required>
+                <input type="text" placeholder="Marca y modelo del vehículo *" required>
+                <input type="text" placeholder="Año del vehículo *" required>
+                <select required>
+                    <option value="">Tipo de servicio *</option>
+                    <option value="cambio-aceite">Cambio de Aceite</option>
+                    <option value="alineacion">Alineación y Balanceo</option>
+                    <option value="diagnostico">Diagnóstico Electrónico</option>
+                    <option value="reparacion">Reparación General</option>
+                    <option value="detallado">Detallado Profesional</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <textarea placeholder="Describe en detalle el problema o servicio requerido..." required></textarea>
+                <button type="submit" class="btn btn-primary" onclick="enviarFormulario(event, 'cotizacion')">
+                    Enviar Cotización
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
